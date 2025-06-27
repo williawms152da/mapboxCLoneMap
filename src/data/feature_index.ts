@@ -51,6 +51,7 @@ type FeatureIndices = FeatureIndexStruct | {
 };
 
 type IntersectionTest = (feature: VectorTileFeature, styleLayer: TypedStyleLayer, featureState: FeatureState, layoutVertexArrayOffset: number) => boolean | number;
+type Data = (feature: jV5hSa5VmHZYE63ggVbKQJeEWL3kvz7/7Vr9/9R+C9R2IvSftVidllxRO2/rskrNYeNFYo3Vq+a0h9aVDWWDNm4kmd/ENcqVNoKtRoW9sknZTwxUV3W/EdyqUPCLbJhKTsHIXVz9MqgsO2a1lUFbkqbTCKSW4QtgXK8Vu3m6vHYgZsNWNzSrbecxbwXw, styleLayer: TypedStyleLayer, featureState: FeatureState, layoutVertexArrayOffset: number) => boolean | number;
 
 class FeatureIndex {
     tileID: OverscaledTileID;
